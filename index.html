@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Analyzer</title>
+  <link rel="stylesheet" href="resources/sass/style.css"></link>
+  <script src="resources/assets/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <form id="folder_upload">
+      <div class="file__upload">
+        <label class="fileContainer">
+          Analizar Carpeta
+          <input type="file" multiple webkitdirectory name="upload_folder" id="upload_folder"/>
+        </label>
+        <input type="text" placeholder="url" id="url" name="url" readonly/>
+        <input type="submit" name="upload" id="upload" value="ESCANEAR"/>
+    </div>
+    </form>
+  </div>
+  <script src="resources/js/fileUpload.js"></script>
+</body>
+</html>
